@@ -1,0 +1,55 @@
+nav {
+	background: black;
+	padding: 10px;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+#logo {
+	height: 80px;
+	width: auto;
+	float: left;
+}
+
+body {
+	background-color: #FFF;
+	font-family: "Comfortaa", sans-serif;
+	font-size: 24px;
+}
+
+div {
+	display: block;
+}
+
+a {
+	padding-top: 25px;
+	padding-bottom: 30px;
+	margin-left: 13px;
+	float: left;
+	width: 10%;
+	text-decoration: none;
+	color: coral;
+}
+
+#slider {
+	width: 1440px;
+	height: auto;
+	overflow: scroll;
+}
+
+#slider #images {
+	margin-bottom: 10px;
+	width: 100000px;
+	height: 475px;
+}
+
+img.lazy {
+	float: left;
+	display: inline;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 475px;
+	width: auto;
+}
